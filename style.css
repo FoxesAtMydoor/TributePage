@@ -1,20 +1,32 @@
+body {
+    background-color: gray;
+}
+
 header {
     display: grid;
-    grid-template-rows: repeat(auto-fit, minxmax(240px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
     margin: auto;
-    width: 50%;
+    width: 100%;
     height: auto;
     text-align: center;
     overflow: hidden;
 }
 .portrait {
+    /* margin: 10px 10px; */
+    padding: 20px 0px;
+    background-color: pink;
     margin: auto;
-    width: 50%;
+    width: 100%;
     max-height: 450px;
 }
 img {
-    max-width: 1080px;
-    width: 100%;
+    width: auto;
+    max-width: 300px;
     height: auto;
-    object-fit: contain;
+    object-fit: cover;
+}
+
+#description {
+    margin: auto;
+    width: 50%;
 }
