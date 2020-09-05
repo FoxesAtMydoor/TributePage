@@ -3,9 +3,17 @@ header {
     grid-template-rows: auto;
     margin: auto;
     width: 50%;
+    height: auto;
     text-align: center;
+    overflow: hidden;
 }
 .portrait {
+    margin: auto;
+    width: 50%;
+    max-height: 500px;
+}
+img {
+    width: 100%;
     height: auto;
-    width: auto;
+    object-fit: contain;
 }
