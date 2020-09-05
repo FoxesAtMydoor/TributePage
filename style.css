@@ -27,6 +27,7 @@ img {
 }
 
 #description {
+    position: relative;
     margin: auto;
     width: 50%;
 }
