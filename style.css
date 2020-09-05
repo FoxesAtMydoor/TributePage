@@ -1,0 +1,10 @@
+.title {
+    display: flex;
+    color: blue;
+    align-self: center;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    margin: auto auto;
+}
