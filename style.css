@@ -5,3 +5,7 @@ header {
     width: 50%;
     text-align: center;
 }
+.portrait {
+    height: auto;
+    width: auto;
+}
